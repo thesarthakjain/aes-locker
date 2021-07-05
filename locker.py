@@ -4,9 +4,10 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 import time
 
 def clear():
-    try:
+    if os.name == 'nt':
         os.system('cls')
-    except:
+    
+    else:
         os.system('clear')
 
 def pad_file(file):
