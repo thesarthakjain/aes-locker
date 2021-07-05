@@ -15,18 +15,18 @@
 - [X] Dependencies from requirements.txt
 
 ## Installing required python dependencies
-- Clone this repository onto your system
+- Clone this repository onto your system.
 ```
->>> git clone https://github.com/thesarthakjain/aes-locker
+$ git clone https://github.com/thesarthakjain/aes-locker
 ```
 - Then, install the packages from requirements.txt.
 ```
->>> pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Directions to run
 - Put a file you wanna encrypt/decrypt in the project directory.
-- Run the following command in the project directory:-
+- Run the following command in the project directory:
 ```
 $ python locker.py
 ```
